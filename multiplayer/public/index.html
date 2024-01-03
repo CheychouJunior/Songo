@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <title>Songo</title>
+</head>
+
+<body>
+    <h1>Le jeu du Songo</h1>
+    <button id="startBtn">Start Game</button>
+    <table style="width: 70%; height: 30%">
+        <tr>
+            <td id="a1"></td>
+            <td id="a2"></td>
+            <td id="a3"></td>
+            <td id="a4"></td>
+            <td id="a5"></td>
+            <td id="a6"></td>
+            <td id="a7"></td>
+        </tr>
+        <tr>
+            <td id="p1" colspan="2"></td>
+            <td colspan="3" style="background-color: white;"></td>
+            <td id="p2" colspan="2"></td>
+        </tr>
+        <tr>
+            <td id="b1"></td>
+            <td id="b2"></td>
+            <td id="b3"></td>
+            <td id="b4"></td>
+            <td id="b5"></td>
+            <td id="b6"></td>
+            <td id="b7"></td>
+        </tr>
+    </table>
+</body>
+<script src="script.js"></script>
+
+</html>
